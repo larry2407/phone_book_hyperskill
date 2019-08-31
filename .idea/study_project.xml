@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="You suddenly remember you need to call your aunt and wish her a happy birthday: but how do you find her number quickly in such a giant phonebook? Write a program that will solve this problem once and forever: create a phonebook where you can easily, quickly and efficiently find necessary information. Names and numbers, here we come.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/63&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA 11" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Phone Book" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="340" />
+                <option name="stepId" value="5482" />
+                <option name="title" value="A needle in the hay" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="341" />
+                <option name="stepId" value="5483" />
+                <option name="title" value="Jumping bubbles" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="342" />
+                <option name="stepId" value="5484" />
+                <option name="title" value="Need for speed" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="266" />
+                      <option name="theoryId" value="4953" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="263" />
+                      <option name="theoryId" value="4991" />
+                      <option name="title" value="The big O notation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="271" />
+                      <option name="theoryId" value="4970" />
+                      <option name="title" value="Linear search" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="480" />
+                      <option name="theoryId" value="6577" />
+                      <option name="title" value="Command line overview" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="60" />
+                      <option name="theoryId" value="3497" />
+                      <option name="title" value="What is an exception" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="59" />
+                      <option name="theoryId" value="3570" />
+                      <option name="title" value="Hierarchy of exceptions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="65" />
+                      <option name="theoryId" value="3552" />
+                      <option name="title" value="Exception handling" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="130" />
+                      <option name="theoryId" value="3540" />
+                      <option name="title" value="Algorithms in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="131" />
+                      <option name="theoryId" value="3541" />
+                      <option name="title" value="Linear search in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="172" />
+                      <option name="theoryId" value="3635" />
+                      <option name="title" value="Files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="173" />
+                      <option name="theoryId" value="3636" />
+                      <option name="title" value="Reading files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="177" />
+                      <option name="theoryId" value="3652" />
+                      <option name="title" value="Writing files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="193" />
+                      <option name="theoryId" value="3749" />
+                      <option name="title" value="Printing data" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="270" />
+                      <option name="theoryId" value="4960" />
+                      <option name="title" value="Jump search" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="274" />
+                      <option name="theoryId" value="4954" />
+                      <option name="title" value="The sorting problem" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="285" />
+                      <option name="theoryId" value="4962" />
+                      <option name="title" value="Bubble sort" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="135" />
+                      <option name="theoryId" value="3548" />
+                      <option name="title" value="Jump search in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="139" />
+                      <option name="theoryId" value="3547" />
+                      <option name="title" value="Bubble sort in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="36" />
+                      <option name="theoryId" value="3517" />
+                      <option name="title" value="Floating-point types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="66" />
+                      <option name="theoryId" value="3501" />
+                      <option name="title" value="Math library" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="267" />
+                      <option name="theoryId" value="5161" />
+                      <option name="title" value="Data structures" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="410" />
+                      <option name="theoryId" value="5984" />
+                      <option name="title" value="Recursion basics" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="144" />
+                      <option name="theoryId" value="3544" />
+                      <option name="title" value="Divide and conquer" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="264" />
+                      <option name="theoryId" value="4955" />
+                      <option name="title" value="Binary search" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="289" />
+                      <option name="theoryId" value="4965" />
+                      <option name="title" value="Quick sort" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="318" />
+                      <option name="theoryId" value="5252" />
+                      <option name="title" value="Stack" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="133" />
+                      <option name="theoryId" value="3545" />
+                      <option name="title" value="Binary search in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="145" />
+                      <option name="theoryId" value="3528" />
+                      <option name="title" value="Quicksort in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="319" />
+                      <option name="theoryId" value="5135" />
+                      <option name="title" value="Call stack" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="132" />
+                      <option name="theoryId" value="3550" />
+                      <option name="title" value="Recursion" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="You suddenly remember you need to call your aunt and wish her a happy birthday: but how do you find her number quickly in such a giant phonebook? Write a program that will solve this problem once and forever: create a phonebook where you can easily, quickly and efficiently find necessary information. Names and numbers, here we come." />
+              <option name="id" value="63" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/210117/additional_files.json" />
+              <option name="language" value="java" />
+              <option name="templateBased" value="false" />
+              <option name="title" value="Phone Book" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="1" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Phone Book" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Ever see a huge 2000+ page book full of various organizations and people, written with a small font and with multiple columns on each page? If you’re unprepared, it's an impossible task to find the information you need. In fact, even computers can struggle with the task of searching among millions of entries from the start of the directory to its end.&lt;/p&gt;&#10;&#10;&lt;p&gt;Various algorithms can perform tasks differently; some are slower than others. In this project, you will implement several algorithms and compare the time efficiency among them using a big dataset.&lt;/p&gt;&#10;&#10;&lt;p&gt;Then you need to download &lt;a href=&quot;https://stepik.org/media/attachments/lesson/197761/directory.txt&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this&lt;/a&gt; file. This file contains over a million people’s phone numbers in multiple cities.&lt;/p&gt;&#10;&#10;&lt;p&gt;In this stage, you should implement the simplest search and find numbers for the people and cities listed in &lt;a href=&quot;https://stepik.org/media/attachments/lesson/197761/find.txt&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this&lt;/a&gt; file.&lt;/p&gt;&#10;&#10;&lt;p&gt;Note how long it takes you to do this by a linear search so you can compare results with other search methods.&lt;/p&gt;&#10;&#10;&lt;p&gt;[ALERT-warning]Please, do not keep the downloaded files inside your project directory because the server can reject large files and you will see the message &lt;strong&gt;&quot;Failed to post submission to the Hyperskill&quot;&lt;/strong&gt;.[/ALERT]&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Below is an example of how should look your output:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;Start searching...&#10;Found 500 / 500 entries. Time taken: 1 min. 56 sec. 328 ms.&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/63/stages/340/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5482" />
+                      <option name="index" value="1" />
+                      <option name="name" value="A needle in the hay" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/phonebook/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/phonebook/Main.java" />
+                                <option name="text" value="package phonebook;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/PhoneBookTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/PhoneBookTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import phonebook.Main;&#10;&#10;import java.util.List;&#10;&#10;public class PhoneBookTest extends BaseStageTest {&#10;    public PhoneBookTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generate() {&#10;        return List.of(&#10;            new TestCase()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object clue) {&#10;        reply = reply.toLowerCase();&#10;        return new CheckResult(&#10;            reply.contains(&quot;start searching&quot;)&#10;                &amp;&amp; reply.contains(&quot;found&quot;)&#10;                &amp;&amp; reply.contains(&quot;min.&quot;)&#10;                &amp;&amp; reply.contains(&quot;sec.&quot;)&#10;                &amp;&amp; reply.contains(&quot;ms.&quot;));&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1563899549000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;It’s ineffective, isn't it? You have to iterate over every element of the numbers list every time you want to find someone's number. But this is the only way if your list contains unordered data. Any number can be anywhere in the list, so you are forced to check every element.&lt;br&gt;&#10;&lt;br&gt;&#10;In this stage, you should sort the list of numbers alphabetically by the owner’s name. Sort the list using the bubble sort algorithm and search in the list using the jump search algorithm.&lt;/p&gt;&#10;&#10;&lt;p&gt;After sorting, search for 500 phone numbers using the same list from the previous stage. Note how long it takes to sort the list and also measure the time the program spent during the searching. Don't include the sorting time into the searching time, because the list of numbers stays sorted after every search request. If you want to save the sorted list into the file so you don’t have to sort it again, then do not override the file with an unsorted list of phone numbers. This file will also be required in the next stage.&lt;/p&gt;&#10;&#10;&lt;p&gt;If sorting takes a very long time (more than 10 times longer than all 500 iterations of the linear search), you should stop sorting and use the linear search. Look at the second example to see what you need to output.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Output both approaches one after another and see which one is faster. Output example is shown below. Note that you can get totally different sorting and searching times!&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;Start searching (linear search)...&#10;Found 500 / 500 entries. Time taken: 1 min. 56 sec. 328 ms.&#10;&#10;Start searching (bubble sort + jump search)...&#10;Found 500 / 500 entries. Time taken: 9 min. 15 sec. 291 ms.&#10;Sorting time: 8 min. 45 sec. 251 ms.&#10;Searching time: 0 min. 30 sec. 40 ms.&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;Start searching (linear search)...&#10;Found 500 / 500 entries. Time taken: 2 min. 01 sec. 134 ms.&#10;&#10;Start searching (bubble sort + jump search)...&#10;Found 500 / 500 entries. Time taken: 22 min. 14 sec. 482 ms.&#10;Sorting time: 20 min. 12 sec. 251 ms. - STOPPED, moved to linear search&#10;Searching time: 2 min. 02 sec. 231 ms.&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/63/stages/341/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5483" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Jumping bubbles" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/PhoneBookTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/PhoneBookTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import phonebook.Main;&#10;&#10;import java.util.List;&#10;&#10;public class PhoneBookTest extends BaseStageTest {&#10;    public PhoneBookTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generate() {&#10;        return List.of(&#10;            new TestCase()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object clue) {&#10;        reply = reply.toLowerCase();&#10;        return new CheckResult(&#10;            reply.contains(&quot;start searching&quot;)&#10;                &amp;&amp; reply.contains(&quot;found&quot;)&#10;                &amp;&amp; reply.contains(&quot;min.&quot;)&#10;                &amp;&amp; reply.contains(&quot;sec.&quot;)&#10;                &amp;&amp; reply.contains(&quot;ms.&quot;)&#10;                &amp;&amp; reply.contains(&quot;sorting time&quot;)&#10;                &amp;&amp; reply.contains(&quot;searching time&quot;)&#10;                &amp;&amp; reply.contains(&quot;linear search&quot;)&#10;                &amp;&amp; reply.contains(&quot;bubble sort&quot;)&#10;                &amp;&amp; reply.contains(&quot;jump search&quot;));&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/phonebook/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/phonebook/Main.java" />
+                                <option name="text" value="package phonebook;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562079771000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Let's use faster methods to sort the list of numbers as well as to search in the list.&lt;/p&gt;&#10;&#10;&lt;p&gt;As in the previous stage, you should first sort the list of phone numbers by an owner name and then search the numbers of the 500 people/cities from the list given in the first stage. Remember that to get decent comparable results you should put all the algorithms in the same initial conditions.&lt;/p&gt;&#10;&#10;&lt;p&gt;For sorting, you should use the Quick sort algorithm, and for searching, you should use the Binary search algorithm.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Output all three approaches one after another and see which one is faster. Output example is shown below. Note that you can get totally different sorting and searching times!&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;Start searching (linear search)...&#10;Found 500 / 500 entries. Time taken: 1 min. 56 sec. 328 ms.&#10;&#10;Start searching (bubble sort + jump search)...&#10;Found 500 / 500 entries. Time taken: 9 min. 15 sec. 291 ms.&#10;Sorting time: 8 min. 45 sec. 251 ms.&#10;Searching time: 0 min. 30 sec. 40 ms.&#10;&#10;Start searching (quick sort + binary search)...&#10;Found 500 / 500 entries. Time taken: 1 min. 21 sec. 996 ms.&#10;Sorting time: 1 min. 17 sec. 381 ms.&#10;Searching time: 0 min. 4 sec. 615 ms.&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/63/stages/342/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5484" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Need for speed" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/PhoneBookTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/PhoneBookTest.java" />
+                                <option name="text" value="mport org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import phonebook.Main;&#10;&#10;import java.util.List;&#10;&#10;public class PhoneBookTest extends BaseStageTest {&#10;    public PhoneBookTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generate() {&#10;        return List.of(&#10;            new TestCase()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object clue) {&#10;        reply = reply.toLowerCase();&#10;        return new CheckResult(&#10;            reply.contains(&quot;start searching&quot;)&#10;                &amp;&amp; reply.contains(&quot;found&quot;)&#10;                &amp;&amp; reply.contains(&quot;min.&quot;)&#10;                &amp;&amp; reply.contains(&quot;sec.&quot;)&#10;                &amp;&amp; reply.contains(&quot;ms.&quot;)&#10;                &amp;&amp; reply.contains(&quot;searching time&quot;)&#10;                &amp;&amp; reply.contains(&quot;sorting time&quot;)&#10;                &amp;&amp; reply.contains(&quot;linear search&quot;)&#10;                &amp;&amp; reply.contains(&quot;bubble sort&quot;)&#10;                &amp;&amp; reply.contains(&quot;jump search&quot;)&#10;                &amp;&amp; reply.contains(&quot;quick sort&quot;)&#10;                &amp;&amp; reply.contains(&quot;binary search&quot;));&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/phonebook/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/phonebook/Main.java" />
+                                <option name="text" value="package phonebook;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562079771000" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>

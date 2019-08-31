@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PhoneBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-31T07:26:06" hostname="DESKTOP-IVHFBFK" time="0.313">
+  <properties/>
+  <testcase name="start" classname="PhoneBookTest" time="0.313"/>
+  <system-out><![CDATA[Start searching...
+Found 500 / 500 entries. Time taken: 0 min. 0 sec. 24 ms.
+]]></system-out>
+  <system-err><![CDATA[Start test 1
+]]></system-err>
+</testsuite>
