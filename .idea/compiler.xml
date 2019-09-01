@@ -4,6 +4,16 @@
     <bytecodeTargetLevel>
       <module name="Phone_Book-task_main" target="11" />
       <module name="Phone_Book-task_test" target="11" />
+      <module name="Problems-Count_comparisons_main" target="11" />
+      <module name="Problems-Count_comparisons_test" target="11" />
+      <module name="Problems-Find_a_block_that_may_contain_the_target_value_main" target="11" />
+      <module name="Problems-Find_a_block_that_may_contain_the_target_value_test" target="11" />
+      <module name="Problems-Print_comparisons_main" target="11" />
+      <module name="Problems-Print_comparisons_test" target="11" />
+      <module name="Problems-Swaps_2_main" target="11" />
+      <module name="Problems-Swaps_2_test" target="11" />
+      <module name="Problems-Swaps_main" target="11" />
+      <module name="Problems-Swaps_test" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>
