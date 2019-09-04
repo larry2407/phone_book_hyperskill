@@ -38,7 +38,7 @@ public class Main {
         String searchingSentence = "";
         int finalCount=0;
         long finalDelta=0;
-        if(deltaB > 10 * deltaS){
+        if(deltaB > 1000000000 * deltaS){
             countSimple = 0;
             sortingSentence+=" - STOPPED, moved to linear search";
             startLsearch = System.currentTimeMillis();
@@ -69,8 +69,84 @@ public class Main {
         showResults(finalCount, finalDelta);
         System.out.println(sortingSentence);
         System.out.println(searchingSentence);
+
+
+        System.out.println("Start searching (quick sort + binary search)...");
+        long startQsort = System.currentTimeMillis();
+        inputDirectoryArray = getArray(inputPhoneBook, 1014130);
+        String[] sortedQArray = quickSort(inputDirectoryArray, 0, 1014129);
+        long endQsort = System.currentTimeMillis();
+        long deltaQ = endQsort - startQsort;
+         sortingSentence = returnResults(deltaQ, "Sorting");
+         searchingSentence = "";
+         finalCount=0;
+         finalDelta=0;
+        int countBsearch =0;
+        long startBsearch = System.currentTimeMillis();
+        for (String s : sortedQArray) {
+            if(binarySearch(sortedQArray, s, 0, 1014129) >-1){
+                countBsearch++;
+            }
+        }
+        long endBsearch = System.currentTimeMillis();
+        long deltaBin = endBsearch - startBsearch;
+        searchingSentence = returnResults(deltaBin, "Searching");
+        finalCount = countBsearch;
+        finalDelta = deltaBin + deltaQ;
+        showResults(finalCount, finalDelta);
+        System.out.println(sortingSentence);
+        System.out.println(searchingSentence);
+
     }
 
+    private static int binarySearch(String[] sortedQArray,String elem, int left, int right) {
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2; // the index of the middle element
+
+            if (elem == sortedQArray[mid]) {
+                return mid; // the element is found, return its index
+            } else if (elem.compareTo(sortedQArray[mid]) < 0) {
+                right = mid - 1; // go to the left subarray
+            } else {
+                left = mid + 1;  // go the the right subarray
+            }
+        }
+        return -1; // the element is not found
+    }
+    private static String[] quickSort(String[] inputDirectoryArray, int left, int right) {
+
+        if (left < right) {
+            int pivotIndex = partition(inputDirectoryArray, left, right); // the pivot is already on its place
+            quickSort(inputDirectoryArray, left, pivotIndex - 1);  // sort the left subarray
+            quickSort(inputDirectoryArray, pivotIndex + 1, right); // sort the right subarray
+        }
+
+        return inputDirectoryArray;
+    }
+
+    private static int partition(String[] array, int left, int right) {
+        String pivot = array[right];  // choose the rightmost element as the pivot
+        int partitionIndex = left; // the first element greater than the pivot
+
+        /* move large values into the right side of the array */
+        for (int i = left; i < right; i++) {
+            if (array[i].compareTo(pivot) <= 0) { // may be used '<' as well
+                swap(array, i, partitionIndex);
+                partitionIndex++;
+            }
+        }
+
+        swap(array, partitionIndex, right); // put the pivot on a suitable position
+
+        return partitionIndex;
+    }
+
+    private static void swap(int[] array, int i, int j) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
     private static String[] getArray(File inputFile, int size) {
         scanFile(inputFile);
         String[] inputArray = new String[size];

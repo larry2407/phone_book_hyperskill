@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PhoneBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-31T07:26:06" hostname="DESKTOP-IVHFBFK" time="0.313">
+<testsuite name="PhoneBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-04T09:44:26" hostname="DESKTOP-IVHFBFK" time="42.161">
   <properties/>
-  <testcase name="start" classname="PhoneBookTest" time="0.313"/>
-  <system-out><![CDATA[Start searching...
-Found 500 / 500 entries. Time taken: 0 min. 0 sec. 24 ms.
+  <testcase name="start" classname="PhoneBookTest" time="42.161"/>
+  <system-out><![CDATA[Start searching (linear search)...
+Found 500 / 500 entries. Time taken: 0 min. 2 sec. 855 ms.
+Start searching (bubble sort + jump search)...
+Found 3066 / 500 entries. Time taken: 0 min. 34 sec. 173 ms.
+Sorting time: 0 min. 28 sec. 555 ms.
+Searching time: 0 min. 5 sec. 618 ms.
+Start searching (quick sort + binary search)...
+Found 1014130 / 500 entries. Time taken: 0 min. 3 sec. 355 ms.
+Sorting time: 0 min. 3 sec. 2 ms.
+Searching time: 0 min. 0 sec. 353 ms.
 ]]></system-out>
   <system-err><![CDATA[Start test 1
 ]]></system-err>

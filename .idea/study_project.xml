@@ -382,7 +382,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Need for speed" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/PhoneBookTest.java">
@@ -391,7 +391,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="test/PhoneBookTest.java" />
                                 <option name="text" value="mport org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import phonebook.Main;&#10;&#10;import java.util.List;&#10;&#10;public class PhoneBookTest extends BaseStageTest {&#10;    public PhoneBookTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generate() {&#10;        return List.of(&#10;            new TestCase()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object clue) {&#10;        reply = reply.toLowerCase();&#10;        return new CheckResult(&#10;            reply.contains(&quot;start searching&quot;)&#10;                &amp;&amp; reply.contains(&quot;found&quot;)&#10;                &amp;&amp; reply.contains(&quot;min.&quot;)&#10;                &amp;&amp; reply.contains(&quot;sec.&quot;)&#10;                &amp;&amp; reply.contains(&quot;ms.&quot;)&#10;                &amp;&amp; reply.contains(&quot;searching time&quot;)&#10;                &amp;&amp; reply.contains(&quot;sorting time&quot;)&#10;                &amp;&amp; reply.contains(&quot;linear search&quot;)&#10;                &amp;&amp; reply.contains(&quot;bubble sort&quot;)&#10;                &amp;&amp; reply.contains(&quot;jump search&quot;)&#10;                &amp;&amp; reply.contains(&quot;quick sort&quot;)&#10;                &amp;&amp; reply.contains(&quot;binary search&quot;));&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -405,7 +405,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/phonebook/Main.java" />
                                 <option name="text" value="package phonebook;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -548,7 +548,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="Swaps" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Solved" />
+                      <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -583,7 +583,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Swaps 2" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Solved" />
+                      <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -603,6 +603,181 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1541088500000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Healthy sleep&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/4593&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Ann watched a TV program about health and learned that it is recommended to sleep at least $A$ hours per day, but oversleeping is also not healthy and you should not sleep more than $B$ hours. Now Ann sleeps $H$ hours per day. If Ann's sleep schedule complies with the requirements of that TV program – print &quot;Normal&quot;. If Ann sleeps less than $A$ hours, output “Deficiency”, if she sleeps more than $B$ hours, output “Excess”.&lt;/p&gt; &#10;  &lt;p&gt;Input to this program are the three strings with variables in the following order: &lt;span class=&quot;math-tex&quot;&gt;\( A \)&lt;/span&gt;, &lt;span class=&quot;math-tex&quot;&gt;\( B \)&lt;/span&gt;, &lt;span class=&quot;math-tex&quot;&gt;\( H \)&lt;/span&gt;. &lt;span class=&quot;math-tex&quot;&gt;\( A \)&lt;/span&gt; is always less than or equal to &lt;span class=&quot;math-tex&quot;&gt;\( B \)&lt;/span&gt;.&lt;/p&gt; &#10;  &lt;p&gt;Please note letters case: the output should exactly correspond to what required in the problem, i.e. if the program has to output &quot;Excess&quot;, such output as &quot;excess&quot;, &quot;EXCESS&quot;, &quot;ExCeSs&quot; and others will not be graded as correct.&lt;/p&gt; &#10;  &lt;p&gt;You should &lt;strong&gt;carefully&lt;/strong&gt; think about all conditions, which you need to use. A special attention should be paid to the strictness of the used conditional operators: distinguish between &lt;span class=&quot;math-tex&quot;&gt;\( \lt \)&lt;/span&gt; and &lt;span class=&quot;math-tex&quot;&gt;\( \le \)&lt;/span&gt;; &lt;span class=&quot;math-tex&quot;&gt;\( \gt \)&lt;/span&gt; and &lt;span class=&quot;math-tex&quot;&gt;\( \ge \)&lt;/span&gt;. In order to understand which ones to use, please &lt;strong&gt;carefully&lt;/strong&gt; read the problem statement.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;6&lt;br&gt;10&lt;br&gt;8&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Normal&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;7&lt;br&gt;9&lt;br&gt;10&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Excess&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;7&lt;br&gt;9&lt;br&gt;2&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Deficiency&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/4625&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/4593" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="4593" />
+                      <option name="index" value="6" />
+                      <option name="name" value="Healthy sleep" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="// write your answer here &#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1565639924000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Search in a descending ordered array&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3132&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   &lt;div&gt;&#10;    Given a method that implements the binary search algorithm. It searches in ascending sorted arrays.&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    You should &amp;nbsp;modify the method:&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;ul&gt;&#10;     &lt;li&gt;it should search in descending sorted arrays instead of ascending ones;&lt;br&gt;&lt;/li&gt;&#10;     &lt;li&gt;it should return the first index of the target element from the beginning of the array, i.e. the leftmost index.&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;15&lt;br&gt;17 17 16 15 15 15 15 14 14&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;3 3 3 3 3 1 1 1 0&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;-1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;22&lt;br&gt;40 31 22 22 22 22 22 22&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3545&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3132" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3132" />
+                      <option name="index" value="7" />
+                      <option name="name" value="Search in a descending ordered array" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.ArrayList;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    /* Modify this method */&#10;    public static int binarySearch(int elem, int[] array) {&#10;&#10;        int left = 0;&#10;        int right = array.length - 1;&#10;&#10;        while (left &lt;= right) {&#10;            int mid = left + (right - left) / 2;&#10;&#10;            if (elem == array[mid]) {&#10;                return mid;&#10;            } else if (elem &lt; array[mid]) {&#10;                right = mid - 1;&#10;            } else {&#10;                left = mid + 1;&#10;            }&#10;        }&#10;        return -1;&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        int elem = scanner.nextInt();&#10;        ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();&#10;        while (scanner.hasNextInt()) {&#10;            list.add(scanner.nextInt());&#10;        }&#10;        int[] array = new int[list.size()];&#10;        for (int i = 0; i &lt; array.length; i++) {&#10;            array[i] = list.get(i);&#10;        }&#10;        System.out.println(binarySearch(elem, array));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088487000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Find a fixed point in an array&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3131&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   &lt;div&gt;&#10;    Write a program to check a sorted array of various ints contains a fixed point. The array is sorted in the ascending order.&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    A fixed point is an index &#10;    &lt;b&gt;i&lt;/b&gt; such &#10;    &lt;b&gt;A[i] = i&lt;/b&gt;.&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    The integers in the array can be negative. The input array doesn't contain duplicates.&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    Use binary search to solve the problem.&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;b&gt;Input data format&lt;/b&gt;&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   The first line contains a number of elements in the array, the second one consists of the elements.&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;b&gt;Output data format&lt;/b&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;div&gt;&#10;    The program should output &#10;    &lt;b&gt;&quot;true&quot;&lt;/b&gt; or &#10;    &lt;b&gt;&quot;false&quot;&lt;/b&gt;.&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;-8 -2 0 3 9&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;true&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;6&lt;br&gt;4 7 9 12 14 19&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;false&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;-2 1 3 5&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;true&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 1s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3545&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3131" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3131" />
+                      <option name="index" value="8" />
+                      <option name="name" value="Find a fixed point in an array" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088486000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Find array elements in another array&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3130&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p style=&quot;text-align: left;&quot;&gt;The first line contains integer &lt;span class=&quot;math-tex&quot;&gt;\( 1 \le n \le 10^5 \)&lt;/span&gt;. The second one contains of an array &lt;span class=&quot;math-tex&quot;&gt;\( A[1 \ldots n] \)&lt;/span&gt; of &lt;span class=&quot;math-tex&quot;&gt;\( n \)&lt;/span&gt; various natural numbers, not exceeding &lt;span class=&quot;math-tex&quot;&gt;\( 10^9 \)&lt;/span&gt;, in ascending order. &lt;/p&gt;&#10;  &lt;p style=&quot;text-align: left;&quot;&gt;The third line contains integer &lt;span class=&quot;math-tex&quot;&gt;\( 1 \le k \le 10^5 \)&lt;/span&gt;. The fourth one consists of &lt;span class=&quot;math-tex&quot;&gt;\( k \)&lt;/span&gt; natural numbers &lt;span class=&quot;math-tex&quot;&gt;\( b_1, \ldots, b_k \)&lt;/span&gt;, not exceeding &lt;span class=&quot;math-tex&quot;&gt;\( 10^9 \)&lt;/span&gt;. &lt;/p&gt;&#10;  &lt;p style=&quot;text-align: left;&quot;&gt;For each &lt;span class=&quot;math-tex&quot;&gt;\( i \)&lt;/span&gt; from 1 to &lt;span class=&quot;math-tex&quot;&gt;\( k \)&lt;/span&gt; it is necessary to output index &lt;span class=&quot;math-tex&quot;&gt;\( 1 \le j \le n \)&lt;/span&gt;, for which &lt;span class=&quot;math-tex&quot;&gt;\( A[j]=b_i \)&lt;/span&gt;, or &lt;span class=&quot;math-tex&quot;&gt;\( -1 \)&lt;/span&gt;, if there is no such &lt;span class=&quot;math-tex&quot;&gt;\( j \)&lt;/span&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;1 5 8 12 13&lt;br&gt;5&lt;br&gt;8 1 23 1 11&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3 1 -1 1 -1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 1s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3545&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3130" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3130" />
+                      <option name="index" value="9" />
+                      <option name="name" value="Find array elements in another array" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088486000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Move the pivot&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3827&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;For a given array and a given index of a pivot, you should implement the method &quot;moveThePivot&quot; that rearranges the array and places the pivot in the right position, keeping in mind that the array would be part of Quicksort algorithm and eventually the array would be sorted in the ascending order.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3528&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3827" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3827" />
+                      <option name="index" value="10" />
+                      <option name="name" value="Move the pivot" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;    public static void moveThePivot(int[] array, int pivotIndex) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        int[] array = Arrays.stream(scanner.nextLine().split(&quot; &quot;))&#10;                .mapToInt(Integer::parseInt).toArray();&#10;        int pivotIndex = scanner.nextInt();&#10;        moveThePivot(array, pivotIndex);&#10;        Arrays.stream(array).forEach(e -&gt; System.out.print(e + &quot; &quot;));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1564042265000" />
                     </CodeTask>
                   </list>
                 </option>

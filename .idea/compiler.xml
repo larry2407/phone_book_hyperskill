@@ -8,8 +8,18 @@
       <module name="Problems-Count_comparisons_test" target="11" />
       <module name="Problems-Find_a_block_that_may_contain_the_target_value_main" target="11" />
       <module name="Problems-Find_a_block_that_may_contain_the_target_value_test" target="11" />
+      <module name="Problems-Find_a_fixed_point_in_an_array_main" target="11" />
+      <module name="Problems-Find_a_fixed_point_in_an_array_test" target="11" />
+      <module name="Problems-Find_array_elements_in_another_array_main" target="11" />
+      <module name="Problems-Find_array_elements_in_another_array_test" target="11" />
+      <module name="Problems-Healthy_sleep_main" target="11" />
+      <module name="Problems-Healthy_sleep_test" target="11" />
+      <module name="Problems-Move_the_pivot_main" target="11" />
+      <module name="Problems-Move_the_pivot_test" target="11" />
       <module name="Problems-Print_comparisons_main" target="11" />
       <module name="Problems-Print_comparisons_test" target="11" />
+      <module name="Problems-Search_in_a_descending_ordered_array_main" target="11" />
+      <module name="Problems-Search_in_a_descending_ordered_array_test" target="11" />
       <module name="Problems-Swaps_2_main" target="11" />
       <module name="Problems-Swaps_2_test" target="11" />
       <module name="Problems-Swaps_main" target="11" />
